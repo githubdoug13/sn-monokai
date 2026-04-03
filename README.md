@@ -1,6 +1,6 @@
-# sn-monokai-pro
+# sn-monokai
 
-A Monokai Pro (Classic filter) theme for [Standard Notes](https://standardnotes.com).
+A Monokai theme for [Standard Notes](https://standardnotes.com).
 
 ---
 
@@ -8,13 +8,11 @@ A Monokai Pro (Classic filter) theme for [Standard Notes](https://standardnotes.
 
 1. Open Standard Notes
 2. Navigate to **Plugins → Install Custom Plugin**
-3. Paste the install URL:
+3. Paste the install URL: 
 
 ---
 
 ## Palette
-
-Based on the Monokai Pro Classic filter by [Wimer Hazenberg](https://monokai.pro).
 
 | Role | Color | Hex |
 |---|---|---|

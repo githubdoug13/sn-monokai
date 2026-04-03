@@ -48,7 +48,7 @@
    * No white anywhere. Contrast colors use the darkest
    * background so text stays legible on colored surfaces.
    */
-  --sn-stylekit-info-color: #fc9867;                      /* cyan — links, focus */
+  --sn-stylekit-info-color: #fc9867;       /* Pro orange — selection/highlight */
   --sn-stylekit-info-contrast-color: #1e1f1c;
   --sn-stylekit-success-color: #a9dc76;                   /* green */
   --sn-stylekit-success-contrast-color: #1e1f1c;
