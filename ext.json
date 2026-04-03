@@ -1,12 +1,12 @@
 {
   "identifier": "com.yourdomain.sn-monokai",
-  "name": "Monokai Pro",
-  "description": "Monokai Pro color scheme for Standard Notes",
+  "name": "Monokai",
+  "description": "Monokai color scheme for Standard Notes",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.1.0",
-  "url": "https://cdn.jsdelivr.net/gh/<username>/sn-monokai-pro@v1.1.0/monokai.css",
-  "latest_url": "https://cdn.jsdelivr.net/gh/<username>/sn-monokai-pro@v1.1.0/ext.json",
+  "version": "1.1.1",
+  "url": "https://cdn.jsdelivr.net/gh/<username>/sn-monokai-pro@v1.1.1/monokai.css",
+  "latest_url": "https://cdn.jsdelivr.net/gh/<username>/sn-monokai-pro@v1.1.1/ext.json",
   "dock_icon": {
     "type": "circle",
     "background_color": "#272822",
