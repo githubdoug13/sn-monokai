@@ -5,8 +5,8 @@
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.1.1",
-  "url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai-pro@v1.1.1/monokai.css",
-  "latest_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai-pro@v1.1.1/ext.json",
+  "url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai-pro@v1.1.2/monokai.css",
+  "latest_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai-pro@v1.1.2/ext.json",
   "dock_icon": {
     "type": "circle",
     "background_color": "#272822",
