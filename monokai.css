@@ -39,7 +39,7 @@
 
   /* --- Text --- */
   --sn-stylekit-foreground-color: #c2c2bf;        /* primary text — warm mid */
-  --sn-stylekit-contrast-foreground-color: #90908a;  /* secondary text — muted */
+  --sn-stylekit-contrast-foreground-color: #a8a8a2;  /* secondary text — muted */
   --sn-stylekit-secondary-foreground-color: #75715e; /* comments, de-emphasized */
 
   /* --- Borders & dividers --- */
