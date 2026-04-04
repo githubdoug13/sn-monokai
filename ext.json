@@ -4,15 +4,15 @@
   "description": "Monokai color scheme for Standard Notes",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.1.8",
-  "url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.8/monokai.css",
-  "latest_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.8/ext.json",
-  "download_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.8/sn-monokai.zip",
+  "version": "1.1.9",
+  "url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.9/monokai.css",
+  "latest_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.9/ext.json",
+  "download_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.9/sn-monokai.zip",
   "dock_icon": {
     "type": "circle",
     "background_color": "#272822",
     "foreground_color": "#f8f8f2",
     "border_color": "#a9dc76"
   },
-  "statusBar": "dark-content"
+  "statusBar": "light-content"
 }
