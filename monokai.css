@@ -1,7 +1,7 @@
 /* SN Monokai Theme
  * Author: githubdoug13
  * Date: 2026-04-03
- * Version: 1.1.5
+ * Version: 1.1.6
  * Based on: Monokai Pro (Classic filter) by Wimer Hazenberg
  */
 
@@ -30,55 +30,106 @@
  */
 
 :root {
-  /* --- Core surfaces --- */
-  --sn-stylekit-background-color: #272822;
-  --sn-stylekit-contrast-background-color: #1e1f1c;       /* sidebar, panels */
-  --sn-stylekit-secondary-background-color: #3e3d32;      /* hover, line highlight */
-  --sn-stylekit-secondary-contrast-background-color: #414339;
+  /* === Raw palette === */
+  --bg:               #272822;
+  --bg-dark:          #1e1f1c;
+  --bg-hover:         #3e3d32;
+  --bg-input:         #414339;
+  --bg-border:        #34352f;
+  --fg:               #c2c2bf;
+  --fg-bright:        #f8f8f2;
+  --fg-muted:         #90908a;
+  --fg-dim:           #75715e;
+  --orange:           #fc9867;
+  --green:            #a9dc76;
+  --yellow:           #ffd866;
+  --pink:             #f92672;
+  --cyan:             #78dce8;
+  --purple:           #ab9df2;
 
-  /* --- Text --- */
-  --sn-stylekit-foreground-color: #c2c2bf;        /* primary text — warm mid */
-  --sn-stylekit-contrast-foreground-color: #90908a;  /* secondary text — muted */
-  --sn-stylekit-secondary-foreground-color: #75715e; /* comments, de-emphasized */
+  /* === Core surfaces === */
+  --sn-stylekit-background-color:                       var(--bg);
+  --sn-stylekit-contrast-background-color:              var(--bg-dark);
+  --sn-stylekit-secondary-background-color:             var(--bg-hover);
+  --sn-stylekit-secondary-contrast-background-color:    var(--bg-input);
 
-  /* --- Borders & dividers --- */
-  --sn-stylekit-border-color: #34352f;
+  /* === Text === */
+  --sn-stylekit-foreground-color:                       var(--fg);
+  --sn-stylekit-contrast-foreground-color:              var(--fg-muted);
+  --sn-stylekit-secondary-foreground-color:             var(--fg-muted);
+  --sn-stylekit-secondary-contrast-foreground-color:    var(--fg);
+  --sn-stylekit-paragraph-text-color:                   var(--fg);
 
-  /* --- Accent / interactive ---
-   * No white anywhere. Contrast colors use the darkest
-   * background so text stays legible on colored surfaces.
-   */
-  --sn-stylekit-info-color: #fc9867;       /* Pro orange — selection/highlight */
-  --sn-stylekit-info-contrast-color: #1e1f1c;
-  --sn-stylekit-success-color: #a9dc76;                   /* green */
-  --sn-stylekit-success-contrast-color: #1e1f1c;
-  --sn-stylekit-warning-color: #ffd866;                   /* yellow */
-  --sn-stylekit-warning-contrast-color: #1e1f1c;
-  --sn-stylekit-danger-color: #f92672;                    /* pink/red */
-  --sn-stylekit-danger-contrast-color: #f8f8f2;          /* light fg on dark pink */
+  /* === Borders === */
+  --sn-stylekit-border-color:                           var(--bg-border);
+  --sn-stylekit-contrast-border-color:                  var(--bg-input);
+  --sn-stylekit-secondary-border-color:                 var(--bg-border);
+  --sn-stylekit-secondary-contrast-border-color:        var(--fg-dim);
 
-  /* --- Neutral --- */
-  --sn-stylekit-neutral-color: #75715e;
-  --sn-stylekit-neutral-contrast-color: #f8f8f2;         /* was white — now warm fg */
+  /* === Editor === */
+  --sn-stylekit-editor-background-color:                var(--bg);
+  --sn-stylekit-editor-foreground-color:                var(--fg);
 
-  /* --- Shadow --- */
-  --sn-stylekit-shadow-color: #1e1f1c;
+  /* === Accent / interactive === */
+  --sn-stylekit-info-color:                             var(--orange);
+  --sn-stylekit-info-contrast-color:                    var(--bg-dark);
+  --sn-stylekit-success-color:                          var(--green);
+  --sn-stylekit-success-contrast-color:                 var(--bg-dark);
+  --sn-stylekit-warning-color:                          var(--yellow);
+  --sn-stylekit-warning-contrast-color:                 var(--bg-dark);
+  --sn-stylekit-danger-color:                           var(--pink);
+  --sn-stylekit-danger-contrast-color:                  var(--fg-bright);
+  --sn-stylekit-neutral-color:                          var(--fg-dim);
+  --sn-stylekit-neutral-contrast-color:                 var(--fg-bright);
 
-  /* --- Typography --- */
-  --sn-stylekit-base-font-size: 14px;
-  --sn-stylekit-font-size-p: 1rem;
-  --sn-stylekit-font-size-editor: 1.05rem;
-  --sn-stylekit-font-size-h1: 1.4rem;
-  --sn-stylekit-font-size-h2: 1.3rem;
-  --sn-stylekit-font-size-h3: 1.2rem;
-  --sn-stylekit-font-size-h4: 1.1rem;
-  --sn-stylekit-font-size-h5: 1rem;
-  --sn-stylekit-font-size-h6: 0.9rem;
+  /* === Accessory tint colors (mobile tag/accent colors) === */
+  --sn-stylekit-accessory-tint-color-1:                 var(--purple);
+  --sn-stylekit-accessory-tint-color-2:                 var(--pink);
+  --sn-stylekit-accessory-tint-color-3:                 var(--orange);
+  --sn-stylekit-accessory-tint-color-4:                 var(--cyan);
+  --sn-stylekit-accessory-tint-color-5:                 var(--green);
+  --sn-stylekit-accessory-tint-color-6:                 var(--yellow);
 
-  /* --- Scrollbars --- */
-  scrollbar-color: #414339 #272822;
+  /* === Passive colors (mobile chrome) === */
+  --sn-stylekit-passive-color-3:                        var(--bg-hover);
+  --sn-stylekit-passive-color-4:                        var(--bg-dark);
+  --sn-stylekit-passive-color-4-opacity-variant:        #1e1f1c3d;
+  --sn-stylekit-passive-color-5:                        var(--bg-dark);
+
+  /* === Grey variants === */
+  --sn-stylekit-grey-5:                                 var(--fg-dim);
+  --sn-stylekit-grey-4-opacity-variant:                 var(--bg-hover);
+
+  /* === Shadow === */
+  --sn-stylekit-shadow-color:                           var(--bg-dark);
+
+  /* === Desktop titlebar === */
+  --sn-desktop-titlebar-bg-color:                       var(--bg);
+  --sn-desktop-titlebar-border-color:                   var(--bg-border);
+  --sn-desktop-titlebar-ui-color:                       var(--fg);
+  --sn-desktop-titlebar-ui-hover-color:                 var(--fg-dim);
+
+  /* === Navigation === */
+  --navigation-item-selected-background-color:          var(--bg-hover);
+
+  /* === Scrollbars === */
+  --sn-stylekit-scrollbar-track-border-color:           var(--bg-border);
+  --sn-stylekit-scrollbar-thumb-color:                  var(--bg-input);
+  scrollbar-color: var(--bg-input) var(--bg);
+
+  /* === Typography === */
+  --sn-stylekit-base-font-size:     14px;
+  --sn-stylekit-font-size-p:        1rem;
+  --sn-stylekit-font-size-editor:   1.05rem;
+  --sn-stylekit-font-size-h1:       1.4rem;
+  --sn-stylekit-font-size-h2:       1.3rem;
+  --sn-stylekit-font-size-h3:       1.2rem;
+  --sn-stylekit-font-size-h4:       1.1rem;
+  --sn-stylekit-font-size-h5:       1rem;
+  --sn-stylekit-font-size-h6:       0.9rem;
 }
 
+/* === Scrollbars (webkit) === */
 ::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #272822; }
-::-webkit-scrollbar-thumb { background-color: #414339; border-radius: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background-color: var(--bg-input); border-radius: 4px; }
