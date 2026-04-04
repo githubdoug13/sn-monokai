@@ -1,7 +1,7 @@
 /* SN Monokai Theme
  * Author: githubdoug13
  * Date: 2026-04-03
- * Version: 1.1.4
+ * Version: 1.1.5
  * Based on: Monokai Pro (Classic filter) by Wimer Hazenberg
  */
 
@@ -37,9 +37,9 @@
   --sn-stylekit-secondary-contrast-background-color: #414339;
 
   /* --- Text --- */
-  --sn-stylekit-foreground-color: #9c9c72;
-  --sn-stylekit-contrast-foreground-color: #c2c2bf;       /* secondary text */
-  --sn-stylekit-secondary-foreground-color: #90908a;      /* muted, comments */
+  --sn-stylekit-foreground-color: #c2c2bf;        /* primary text — warm mid */
+  --sn-stylekit-contrast-foreground-color: #90908a;  /* secondary text — muted */
+  --sn-stylekit-secondary-foreground-color: #75715e; /* comments, de-emphasized */
 
   /* --- Borders & dividers --- */
   --sn-stylekit-border-color: #34352f;
