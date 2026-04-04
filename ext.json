@@ -1,13 +1,13 @@
 {
-  "identifier": "com.yourdomain.sn-monokai",
+  "identifier": "com.githubdoug13.sn-monokai",
   "name": "Monokai",
   "description": "Monokai color scheme for Standard Notes",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.1.6",
-  "url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.6/monokai.css",
-  "latest_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.6/ext.json",
-  "download_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.6/sn-monokai.zip",
+  "version": "1.1.7",
+  "url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.7/monokai.css",
+  "latest_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.7/ext.json",
+  "download_url": "https://cdn.jsdelivr.net/gh/githubdoug13/sn-monokai@v1.1.7/sn-monokai.zip",
   "dock_icon": {
     "type": "circle",
     "background_color": "#272822",
